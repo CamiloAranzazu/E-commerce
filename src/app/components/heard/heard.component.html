@@ -1,0 +1,9 @@
+<nav class="navbar navbar-expand-lg colorNavbar fixed-top fadeIn animated fast">
+    <h3> e-commerce </h3>
+    <div class="collapse navbar-collapse">
+        <ul class="mr-auto"></ul>
+        <form class="form-inline my-2 my-lg-0">
+            <button *ngIf="route.url !== '/Home' && route.url !== '/'" [routerLink]="['Home']" class="btn btn-outline-success my-2 my-sm-0 colorBtn" type="button">Inicio</button>
+        </form>
+    </div>
+</nav>
